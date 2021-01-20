@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a718220a-613c-4bb9-896c-e93b6a171012" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,7 @@
       <workItem from="1610718997345" duration="660000" />
       <workItem from="1610719952918" duration="3663000" />
       <workItem from="1610732905448" duration="16000" />
-      <workItem from="1611152723008" duration="5067000" />
+      <workItem from="1611152723008" duration="5534000" />
     </task>
     <task id="LOCAL-00001" summary="aula 04">
       <created>1610721356102</created>
