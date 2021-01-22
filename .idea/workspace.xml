@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a718220a-613c-4bb9-896c-e93b6a171012" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Users\josin\Documents\CEFET\SIHS\ConverterTemperatura\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,7 +44,12 @@
       <workItem from="1610718997345" duration="660000" />
       <workItem from="1610719952918" duration="3663000" />
       <workItem from="1610732905448" duration="16000" />
-      <workItem from="1611152723008" duration="5534000" />
+      <workItem from="1611152723008" duration="5858000" />
+      <workItem from="1611253713434" duration="21000" />
+      <workItem from="1611265199477" duration="3533000" />
+      <workItem from="1611268929058" duration="1111000" />
+      <workItem from="1611272399149" duration="1140000" />
+      <workItem from="1611279672681" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="aula 04">
       <created>1610721356102</created>
