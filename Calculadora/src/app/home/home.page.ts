@@ -73,7 +73,7 @@ export class HomePage {
     }
 
     async backSpace(): Promise<void> {
-        if ((Number(this.numeroDisplay) < 10 && Number(this.numeroDisplay) > 0) || (Number(this.numeroDisplay) > -10)) {
+        if ((Number(this.numeroDisplay) < 10 && Number(this.numeroDisplay) > 0) || (Number(this.numeroDisplay) > -10) && Number(this.numeroDisplay) < 0) {
             this.numeroDisplay = "0";
         } else {
             let aux = "";
@@ -110,7 +110,6 @@ export class HomePage {
 
     async opposite(): Promise<void> {
         this.numeroDisplay = ((Number(this.numeroDisplay) * -1)).toString();
-        this.calculou = true;
     }
 
     async decimal(): Promise<void> {
