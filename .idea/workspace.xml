@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a718220a-613c-4bb9-896c-e93b6a171012" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/app/home/home.page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projetos/controle epi" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Users\josin\Documents\CEFET\SIHS\ConverterTemperatura\node_modules\typescript\lib" />
@@ -49,7 +47,7 @@
       <workItem from="1611265199477" duration="3533000" />
       <workItem from="1611268929058" duration="1111000" />
       <workItem from="1611272399149" duration="1140000" />
-      <workItem from="1611279672681" duration="1844000" />
+      <workItem from="1611279672681" duration="2669000" />
     </task>
     <task id="LOCAL-00001" summary="aula 04">
       <created>1610721356102</created>
@@ -79,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611281398437</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="corrgindo a funcao backSpace">
+      <created>1611281688512</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611281688512</updated>
+    </task>
+    <task id="LOCAL-00006" summary="corrgindo a funcao backSpace">
+      <created>1611281723880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611281723880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +114,7 @@
     <MESSAGE value="aula 04" />
     <MESSAGE value="app calculadora + exercicio" />
     <MESSAGE value="adicionando funcionalidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando funcionalidades" />
+    <MESSAGE value="corrgindo a funcao backSpace" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrgindo a funcao backSpace" />
   </component>
 </project>

@@ -1,0 +1,7 @@
+{
+  "name": "CalculadoraIdade",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
