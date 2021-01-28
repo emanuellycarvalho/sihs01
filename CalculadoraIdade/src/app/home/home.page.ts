@@ -50,10 +50,21 @@ export class HomePage {
                 this.weekDayNextBirthDay = this.weekDay(new Date(currentDate.getFullYear(), new Date(this.birthDay).getMonth(), new Date(this.birthDay).getDate()).getDay());
                 console.log('aqui');
             } else if (new Date(this.birthDay).getMonth() === currentDate.getMonth() &&
-                new Date(this.birthDay).getDate() >= currentDate.getDate()) {
+                new Date(this.birthDay).getDate() <= currentDate.getDate()) {
+                this.weekDayNextBirthDay = this.weekDay(new Date(currentDate.getFullYear() + 1,
+                    currentDate.getMonth(), new Date(this.birthDay).getDate()).getDay());
+                console.log('menor =');
+                console.log(new Date(currentDate.getFullYear() + 1,
+                    currentDate.getMonth(), new Date(this.birthDay).getDate()));
+
+            } else if (new Date(this.birthDay).getMonth() === currentDate.getMonth() &&
+                new Date(this.birthDay).getDate() === currentDate.getDate()) {
                 this.weekDayNextBirthDay = this.weekDay(new Date(currentDate.getFullYear() + 1,
                     new Date(this.birthDay).getMonth()).getDay());
-            }
+
+            }// }else {
+            //     this.weekDayNextBirthDay = this.weekDay(new Date(currentDate.getFullYear(), new Date(this.birthDay).getMonth(), new Date(this.birthDay).getDate()).getDay());
+            // }
             console.log('Anos bissexto: ', bissexto);
             console.log(365 - (this.daysAge % 365));
         } else {
