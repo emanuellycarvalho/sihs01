@@ -58,9 +58,11 @@ export class HomePage {
                     currentDate.getMonth(), new Date(this.birthDay).getDate()));
 
             } else if (new Date(this.birthDay).getMonth() === currentDate.getMonth() &&
-                new Date(this.birthDay).getDate() === currentDate.getDate()) {
-                this.weekDayNextBirthDay = this.weekDay(new Date(currentDate.getFullYear() + 1,
-                    new Date(this.birthDay).getMonth()).getDay());
+                new Date(this.birthDay).getDate() > currentDate.getDate()) {
+                this.weekDayNextBirthDay = this.weekDay(new Date(currentDate.getFullYear(),
+                    new Date(this.birthDay).getMonth(), new Date(this.birthDay).getDate()).getDay());
+                console.log(new Date(currentDate.getFullYear(),
+                    new Date(this.birthDay).getMonth(), new Date(this.birthDay).getDate()));
 
             }// }else {
             //     this.weekDayNextBirthDay = this.weekDay(new Date(currentDate.getFullYear(), new Date(this.birthDay).getMonth(), new Date(this.birthDay).getDate()).getDay());
